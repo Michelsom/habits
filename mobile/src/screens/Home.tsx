@@ -6,11 +6,11 @@ import { api } from "../lib/axios";
 import { generateRangeDatesFromYearStart } from "../utils/generate-range-between-dates";
 
 import { Header } from "../components/Header";
-import { Loading } from "../components/Loading";
 import { HabitDay, DAY_SIZE } from "../components/HabitDay";
 import dayjs from "dayjs";
 import { useDispatch } from "react-redux";
 import { showToast } from "../store/modules/toast/actions";
+import { Loading } from "../components/Loading";
 
 const weekDays = ["D", "S", "T", "Q", "Q", "S", "S"];
 const datesFromYearStart = generateRangeDatesFromYearStart();

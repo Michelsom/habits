@@ -1,5 +1,4 @@
 import { ActivityIndicator, View } from "react-native";
-import { Logo } from "../../assets";
 
 export function Loading() {
   return (

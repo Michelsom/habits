@@ -6,13 +6,13 @@ import { BackButton } from "../components/BackButton";
 import { ProgressBar } from "../components/ProgressBar";
 import { Checkbox } from "../components/Checkbox";
 import { useEffect, useState } from "react";
-import { Loading } from "../components/Loading";
 import { showToast } from "../store/modules/toast/actions";
 import { useDispatch } from "react-redux";
 import { api } from "../lib/axios";
 import { generateProgressPercentage } from "../utils/generate-progress-percentage";
 import { HabitsEmpty } from "../components/HabitsEmpty";
 import clsx from "clsx";
+import { Loading } from "../components/Loading";
 
 interface Params {
   date: string;
